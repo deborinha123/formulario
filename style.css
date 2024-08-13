@@ -1,6 +1,29 @@
-form label{
+body{
+    background-color: rgb(226, 214, 197);
+}
+
+form label{ 
     display: block;
     font-size: 20px;
-    color: blue;
+    color:rgb(14, 17, 187); 
     margin: 0 0 10px;
+}
+.copyright{
+    background-color: rgb(134, 134, 57);
+}
+.enviar {
+    width:40%;
+    padding:15px 0; 
+    background-color: rgb(160, 108, 108);
+    color:aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover {
+    background-color: blueviolet;
+    transform: scale(1.2);
 }
