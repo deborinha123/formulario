@@ -1,29 +1,46 @@
 body{
-    background-color: rgb(92, 21, 134);
+    background-color: rgb(110, 4, 160);
 }
-
-form label{ 
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 100px;
+}
+form label, form legend{
     display: block;
-    font-size: 20px;
-    color:rgb(255, 255, 255); 
+    font-size: 35px;
+    color: rgb(242, 239, 248);
     margin: 0 0 10px;
 }
-.copyright{
-    background-color: rgb(134, 134, 57);
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
-.enviar {
-    width:40%;
-    padding:15px 0; 
-    background-color: rgb(160, 108, 108);
-    color:aliceblue;
+.checkbox{
+    margin: 20px 0;
+}
+footer{
+    text-align: center;
+    padding: 40px 0;
+}
+.copyright{
+    background-color: rgb(101, 107, 204);
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: rgb(60, 3, 134);
+    color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 10px;
     border: none;
     border-radius: 5px;
     transition: 1s all;
     cursor: pointer;
-}
-.enviar:hover {
-    background-color: blueviolet;
-    transform: scale(1.2);
 }
